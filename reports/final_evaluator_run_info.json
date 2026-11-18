@@ -1,0 +1,13 @@
+{
+  "model_tag": "LightGBM_tuned",
+  "hmm_params": {
+    "beta": 7.939291354861332,
+    "unreach": 61.644933390545624,
+    "gap_reset": 7,
+    "normalize": true
+  },
+  "max_hops": 4,
+  "n_trips": 10,
+  "git_commit": "d76f39823d87de03c9881741eb8325774aec3ace",
+  "timestamp": "2026-11-18 16:04:22"
+}
