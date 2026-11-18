@@ -1,0 +1,6 @@
+Model,Algorithm_Family,Key_Configuration,CV_Macro_F1,CV_Macro_F1_Std,Top1_Accuracy,Route_Continuity,Student_Test_Macro_F1,Log_Loss,Train_Time_s,Inference_Time_s
+Logistic_Regression,Linear / Probabilistic,"C=1.0, class_weight='balanced', max_iter=500",0.7905,0.0361,84.48,90.56,0.8175,0.2302,9.06,0.0541
+Random_Forest,Bagging Ensemble,"n_estimators=150, max_depth=14, min_samples_leaf=10",0.8783,0.051,85.21,91.92,0.914,0.0939,457.77,0.3286
+Extra_Trees,Randomized Tree Ensemble,"n_estimators=150, max_depth=16, min_samples_leaf=8",0.8725,0.0509,84.73,91.59,0.9099,0.1081,16.54,0.3582
+LightGBM,Gradient Boosting,"n_estimators=300, lr=0.05, num_leaves=31",0.8776,0.0526,84.91,91.83,0.9127,0.0979,27.98,0.6512
+MLP_Neural_Net,Neural Network (MLP),"hidden=(64, 32), relu, adam, early_stopping=True",0.8752,0.0559,85.35,92.01,0.9151,0.0957,195.73,0.1024
