@@ -1,0 +1,14 @@
+{
+  "params": {
+    "beta": 7.939291354861332,
+    "unreach": 61.644933390545624,
+    "gap_reset": 7,
+    "normalize": true
+  },
+  "max_hops": 4,
+  "probs_source": "LightGBM",
+  "tuned_on": "training OOF probabilities only",
+  "n_tune_trips": 25,
+  "n_trials": 40,
+  "seed": 42
+}

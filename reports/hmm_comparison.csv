@@ -1,0 +1,5 @@
+Partition,Method,Trips,Pointwise_Top1_Acc_%,Route_Continuity_%,Candidate_Miss_Rate_%,Seq_Arc_Precision,Seq_Arc_Recall,Seq_Arc_F1,Seq_Norm_Edit_Dist,Route_Breaks_per_trip,HMM_Decode_s_per_trip
+Training OOF (tuning subset),Classifier-only,25,87.4,90.22,1.17,0.7494,0.9475,0.8327,0.446,122.08,
+Training OOF (tuning subset),Classifier + HMM/Viterbi,25,94.57,98.43,1.17,0.9501,0.951,0.9501,0.0798,6.96,0.027
+Student-test,Classifier-only,10,84.91,91.83,0.52,0.7476,0.9544,0.8328,0.4859,58.6,
+Student-test,Classifier + HMM/Viterbi,10,92.87,98.48,0.52,0.9601,0.9541,0.9556,0.0809,2.3,0.023
