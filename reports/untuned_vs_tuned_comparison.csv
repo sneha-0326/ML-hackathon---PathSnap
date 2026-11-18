@@ -1,0 +1,4 @@
+Stage,CV_Macro_F1,Student_Test_Top1_Acc,Student_Test_Macro_F1,Route_Continuity,Log_Loss,Inference_Time_s,Tuning_Time_s,Final_Fit_Time_s
+Untuned LightGBM,0.8777,84.91,0.9127,91.83,0.0979,1.7998,,
+Bayesian-Tuned LightGBM,0.8791,85.05,0.9136,91.98,0.0945,2.0302,1447.6,36.82
+Delta (tuned - untuned),0.0014,0.14,0.0009,0.15,-0.0034,0.2304,,

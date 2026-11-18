@@ -1,0 +1,29 @@
+{
+  "best_params": {
+    "n_estimators": 291,
+    "learning_rate": 0.03324294154352208,
+    "num_leaves": 41,
+    "min_child_samples": 17,
+    "subsample": 0.8788795372295121,
+    "colsample_bytree": 0.9572220442331459,
+    "reg_alpha": 4.208410254806276e-08,
+    "reg_lambda": 4.024064930131143e-07
+  },
+  "selected": "Trial 24",
+  "full_cv_macro_f1": 0.8791,
+  "untuned_full_cv_macro_f1": 0.8777,
+  "stage1": {
+    "n_trials": 30,
+    "trip_fraction": 0.5,
+    "folds": 3,
+    "time_s": 1068.2
+  },
+  "stage2": {
+    "top_k": 3,
+    "folds": 5,
+    "time_s": 379.5
+  },
+  "total_tuning_time_s": 1447.6,
+  "seed": 42,
+  "sampler": "TPESampler(n_startup_trials=8, multivariate=True)"
+}
